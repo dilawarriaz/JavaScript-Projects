@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area of triangle</title>
+    <script>
+        let a = 5;
+        let b = 10;
+        let c = 10;
+        let s = (a + b + c) / 2;
+        let temp = s * (s - a) * (s - b) * (s - c);
+        let area = Math.sqrt(temp);
+        console.log(area);
+
+        // second method
+        
+        // let base = prompt('please enter base value');
+        // let height = prompt('please enter height value');
+        // let area = (base * height) / 2;
+        // console.log('base ' + base + ' height ' + height + ' area ' + area);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
