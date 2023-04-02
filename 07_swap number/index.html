@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swap two number</title>
+    <script>
+        // // using temporary variable
+        // let a = prompt('enter a value');
+        // let b = prompt('enter b value');
+        // console.log(`the value of a is: ${a}, the value of b is: ${b}`);
+        // let temp;
+        // // a = 5, b = 6
+        // temp = a; 
+        // a = b;
+        // b = temp;
+        // console.log(`After swapping \n the value of a is: ${a}, the value of b is: ${b}`);
+
+        // without using temporary variable
+        let a = parseInt(prompt('enter a value'));
+        let b = parseInt(prompt('enter b value'));
+        console.log(`the value of a is: ${a}, the value of b is: ${b}`);
+        // a = 5
+        // b = 6
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        console.log(`After swapping \n the value of a is: ${a}, the value of b is: ${b}`);
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
